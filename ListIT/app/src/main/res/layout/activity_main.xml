@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/ll_header_acceuil"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="#9ACD32"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:scaleX=".90"
+            android:scaleY=".90"
+            android:src="@drawable/logonondimentionne" />
+
+        <Button
+            android:id="@+id/btn_listes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="35"
+            android:background="#9ACD32"
+            android:shadowColor="#9ACD32"
+            android:text="Listes"
+
+
+            />
+
+        <Button
+            android:id="@+id/btn_categories"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="40"
+            android:background="#9ACD32"
+            android:shadowColor="#9ACD32"
+            android:text="Categories"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_body_acceuil"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="75"
+        android:background="#FFFF"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/ll_footer_acceuil"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="#9ACD32"
+        android:orientation="horizontal" >
+
+
+
+        <Button
+            android:id="@+id/btn_creer_liste"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="35"
+            android:background="#9ACD32"
+            android:shadowColor="#9ACD32"
+            android:text="Creer Une Liste"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
